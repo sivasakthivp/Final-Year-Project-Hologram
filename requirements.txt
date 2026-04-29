@@ -1,0 +1,55 @@
+# AI Hologram Medical Visualization — Python Dependencies
+# Works with Python 3.11+
+
+# ── Web Framework ──
+fastapi
+uvicorn
+python-multipart
+aiofiles
+
+# ── Database ──
+aiosqlite
+
+# ── Deep Learning (OPTIONAL - system works without these) ──
+# torch>=2.1.0
+# torchvision>=0.16.0
+# torchaudio>=2.1.0
+
+# ── Medical Imaging ──
+pydicom
+
+# ── Image Processing ──
+opencv-python-headless
+Pillow
+
+# ── Numerical & Scientific ──
+numpy
+scipy
+scikit-image
+scikit-learn
+
+# ── Point Cloud ──
+plyfile
+
+# ── Visualization ──
+matplotlib
+plotly
+
+# ── Monitoring & Logging ──
+tqdm
+rich
+
+# ── Testing ──
+pytest
+pytest-asyncio
+httpx
+
+# ── Configuration ──
+pydantic
+python-dotenv
+
+# ── Frontend (install separately if needed) ──
+# streamlit
+# requests
+pydantic>=2.8.2
+pydantic-settings>=2.4.0
